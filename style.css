@@ -1,0 +1,105 @@
+body {
+  background-image: url(/gcbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* finds the folder in which the img is located and styles it */
+
+/* Basic styling and positioning of different classes and id's defined on the .html pages */
+#h1 {
+  position: fixed;
+  left: 300px;
+  top: 650px;
+  color: aliceblue;
+}
+
+#h4 {
+  position: fixed;
+  left: 300px;
+  top: 690px;
+  color: aliceblue;
+}
+
+#p1 {
+  position: fixed;
+  left: 300px;
+  top: 715px;
+  color: aliceblue;
+}
+
+#p2 {
+  position: fixed;
+  left: 550px;
+  bottom: 865px;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#p3 {
+  position: fixed;
+  left: 850px;
+  bottom: 865px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#p4 {
+  position: fixed;
+  right: 600px;
+  bottom: 865px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#p5 {
+  position: fixed;
+  font-size: 25px;
+  font-family: serif;
+  color: aliceblue;
+  right: 100px;
+  bottom: 300px;
+}
+
+#gitButton{
+  position: fixed;
+  font-size: 25px;
+  font-family: serif;
+  left: 780px;
+  top: 200px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border-color: rgb(198, 162, 231);
+  height: 35px;
+  background-color: rgb(43, 168, 226);
+  color: rgb(34, 31, 51);
+}
+
+#bio {
+  background-color: rgb(198, 162, 231);
+  width: 300px;
+  border: 15px solid rgb(212, 128, 60);
+  padding: 50px;
+  margin: 20px;
+  opacity: .8;
+  position: fixed;
+  font-size: 20px;
+  font-family: serif;
+  color: rgb(10, 9, 48);
+  right: 5px;
+  bottom: 200px;
+}
+
+#gitLogo {
+  position: fixed;
+  width: 150px;
+  left: 825px;
+  top: 275px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+a {
+  text-decoration: none;
+}
+/* makes it so my hypertext doesn't have an underline and looks better */
